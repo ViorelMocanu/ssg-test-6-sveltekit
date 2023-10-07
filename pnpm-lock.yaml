@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   rehype-autolink-headings:
     specifier: ^6.1.1
@@ -26,7 +30,7 @@ devDependencies:
     version: 5.45.0(eslint@8.28.0)(typescript@5.0.2)
   autoprefixer:
     specifier: ^10.4.14
-    version: 10.4.14(postcss@8.4.22)
+    version: 10.4.14(postcss@8.4.31)
   eslint:
     specifier: ^8.28.0
     version: 8.28.0
@@ -44,10 +48,10 @@ devDependencies:
     version: 3.54.0
   svelte-check:
     specifier: ^3.0.1
-    version: 3.0.1(postcss@8.4.22)(sass@1.62.0)(svelte@3.54.0)
+    version: 3.0.1(postcss@8.4.31)(sass@1.62.0)(svelte@3.54.0)
   svelte-preprocess:
     specifier: ^5.0.3
-    version: 5.0.3(postcss@8.4.22)(sass@1.62.0)(svelte@3.54.0)(typescript@5.0.2)
+    version: 5.0.3(postcss@8.4.31)(sass@1.62.0)(svelte@3.54.0)(typescript@5.0.2)
   tslib:
     specifier: ^2.4.1
     version: 2.4.1
@@ -654,7 +658,7 @@ packages:
     resolution: {integrity: sha512-jgsaNduz+ndvGyFt3uSuWqvy4lCnIJiovtouQN5JZHOKCS2QuhEdbcQHFhVksz2N2U9hXJo8odG7ETyWlEeuDw==}
     dev: true
 
-  /autoprefixer@10.4.14(postcss@8.4.22):
+  /autoprefixer@10.4.14(postcss@8.4.31):
     resolution: {integrity: sha512-FQzyfOsTlwVzjHxKEqRIAdJx9niO6VCBCoEwax/VLSoQF29ggECcPuBqUMZ+u8jCZOPSy8b8/8KnuFbp0SaFZQ==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -666,7 +670,7 @@ packages:
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
-      postcss: 8.4.22
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -1768,8 +1772,8 @@ packages:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
     dev: true
 
-  /postcss@8.4.22:
-    resolution: {integrity: sha512-XseknLAfRHzVWjCEtdviapiBtfLdgyzExD50Rg2ePaucEesyh8Wv4VPdW0nbyDa1ydbrAxV19jvMT4+LFmcNUA==}
+  /postcss@8.4.31:
+    resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.6
@@ -2017,7 +2021,7 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check@3.0.1(postcss@8.4.22)(sass@1.62.0)(svelte@3.54.0):
+  /svelte-check@3.0.1(postcss@8.4.31)(sass@1.62.0)(svelte@3.54.0):
     resolution: {integrity: sha512-7YpHYWv6V2qhcvVeAlXixUPAlpLCXB1nZEQK0EItB3PtuYmENhKclbc5uKSJTodTwWR1y+4stKGcbH30k6A3Yw==}
     hasBin: true
     peerDependencies:
@@ -2030,7 +2034,7 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 3.54.0
-      svelte-preprocess: 5.0.3(postcss@8.4.22)(sass@1.62.0)(svelte@3.54.0)(typescript@4.9.5)
+      svelte-preprocess: 5.0.3(postcss@8.4.31)(sass@1.62.0)(svelte@3.54.0)(typescript@4.9.5)
       typescript: 4.9.5
     transitivePeerDependencies:
       - '@babel/core'
@@ -2053,7 +2057,7 @@ packages:
       svelte: 3.54.0
     dev: true
 
-  /svelte-preprocess@5.0.3(postcss@8.4.22)(sass@1.62.0)(svelte@3.54.0)(typescript@4.9.5):
+  /svelte-preprocess@5.0.3(postcss@8.4.31)(sass@1.62.0)(svelte@3.54.0)(typescript@4.9.5):
     resolution: {integrity: sha512-GrHF1rusdJVbOZOwgPWtpqmaexkydznKzy5qIC2FabgpFyKN57bjMUUUqPRfbBXK5igiEWn1uO/DXsa2vJ5VHA==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
@@ -2094,7 +2098,7 @@ packages:
       '@types/pug': 2.0.6
       detect-indent: 6.1.0
       magic-string: 0.27.0
-      postcss: 8.4.22
+      postcss: 8.4.31
       sass: 1.62.0
       sorcery: 0.11.0
       strip-indent: 3.0.0
@@ -2102,7 +2106,7 @@ packages:
       typescript: 4.9.5
     dev: true
 
-  /svelte-preprocess@5.0.3(postcss@8.4.22)(sass@1.62.0)(svelte@3.54.0)(typescript@5.0.2):
+  /svelte-preprocess@5.0.3(postcss@8.4.31)(sass@1.62.0)(svelte@3.54.0)(typescript@5.0.2):
     resolution: {integrity: sha512-GrHF1rusdJVbOZOwgPWtpqmaexkydznKzy5qIC2FabgpFyKN57bjMUUUqPRfbBXK5igiEWn1uO/DXsa2vJ5VHA==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
@@ -2143,7 +2147,7 @@ packages:
       '@types/pug': 2.0.6
       detect-indent: 6.1.0
       magic-string: 0.27.0
-      postcss: 8.4.22
+      postcss: 8.4.31
       sass: 1.62.0
       sorcery: 0.11.0
       strip-indent: 3.0.0
@@ -2363,7 +2367,7 @@ packages:
     dependencies:
       '@types/node': 18.15.11
       esbuild: 0.15.18
-      postcss: 8.4.22
+      postcss: 8.4.31
       resolve: 1.22.2
       rollup: 2.79.1
       sass: 1.62.0
@@ -2397,7 +2401,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.17.17
-      postcss: 8.4.22
+      postcss: 8.4.31
       resolve: 1.22.2
       rollup: 3.20.6
       sass: 1.62.0
